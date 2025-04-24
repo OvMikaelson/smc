@@ -13488,18 +13488,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	z-index: 998;
 }
 
-.rd-navbar-sidebar .rd-navbar-main {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 22px 60px 22px 0;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /*
 * Static Layout
 */
