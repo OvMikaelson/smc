@@ -11722,8 +11722,8 @@ html:not(.lt-ie10) .not-animated {
 	margin-bottom: 0;
 }
 
-.counter-k:after {
-	content: 'k';
+.counter-plus:after {
+	content: '+';
 }
 
 .countdown-default {
@@ -16236,7 +16236,7 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .swiper-variant-1 .slider-text {
-	display: none;
+	display: block;
 }
 
 @media (min-width: 768px) {
@@ -20770,4 +20770,56 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
  
+.thumbnail-classic-caption {
+	text-align: center;
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: 0;
+	padding: 10px 15px;
+	min-width: 230px;
+	transform: translate3d(-50%, 0, 0);
+	background: #ffffff;
+	pointer-events: none;
+	transition: all .3s ease;
+}
 
+.thumbnail-classic-caption > [class*='thumbnail-classic-'] {
+	pointer-events: auto;
+	width: 100%;
+}
+
+.thumbnail-classic-title-wrap > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.thumbnail-classic-title-wrap .icon {
+	margin-top: 3px;
+	margin-right: 16px;
+	font-size: 26px;
+}
+
+.thumbnail-classic-title-wrap .icon img {
+	display: none;
+}
+
+.thumbnail-classic-title-wrap .icon, .thumbnail-classic-title-wrap .icon:focus, .thumbnail-classic-title-wrap .icon:active {
+	color: #151515;
+}
+
+.thumbnail-classic-title-wrap .icon:hover {
+	color: #0070e3;
+}
+
+.thumbnail-classic-title {
+	color: #0070e3;
+}
+
+.thumbnail-classic-title a, .thumbnail-classic-title a:focus, .thumbnail-classic-title a:active {
+	color: inherit;
+}
+
+.thumbnail-classic-title a:hover {
+	color: #0070e3;
+}
