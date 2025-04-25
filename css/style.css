@@ -20823,3 +20823,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .thumbnail-classic-title a:hover {
 	color: #0070e3;
 }
+
+@media (min-width: 992px) {
+  .margin-desktop {
+    margin-right: 35px;
+  }
+}
