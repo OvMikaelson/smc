@@ -11726,6 +11726,10 @@ html:not(.lt-ie10) .not-animated {
 	content: '+';
 }
 
+.counter-percent:after {
+	content: '%';
+}
+
 .countdown-default {
 	color: #000;
 }
