@@ -13620,7 +13620,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: fixed;
-	top: 16px;
+	top: 8px;
 	left: 64px;
 	z-index: 17;
 	display: block;
@@ -14191,7 +14191,7 @@ html.rd-navbar-sidebar-linked body {
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 44px 15px 42px;
+	padding: 20px 15px 22px;
 	font-size: 0;
 	line-height: 0;
 }
